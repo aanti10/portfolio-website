@@ -548,8 +548,14 @@ main article{
   color: #252a38;
 }
 
+h1 a{
+  font-size: 26px;
+  margin: 0;
+}
+
 h4{
   font-size: 8px;
+  margin-left: 1em;
 }
 
 .toggle{
@@ -569,6 +575,7 @@ nav ul li{
 
 nav ul li a{
   width: 100%;
+  margin: 15px 5px;
 }
 
 .active{
@@ -595,6 +602,11 @@ nav ul li a{
 
 .me{
   width: 80vw;
+}
+
+.text {
+  font-size: 24px;
+  padding: 5px 10px;
 }
 
 main article{
