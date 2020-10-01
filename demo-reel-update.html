@@ -13,7 +13,7 @@
   <link rel="apple-touch-icon" href="icon.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,300i,400,400i,500,700,800&display=swap" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
@@ -26,22 +26,25 @@
 
 <div id="background">
 
-  <header class="new-header">
+    <header class="new-header">
     <div class="left-header">
-      <h1><a href="index.html">Anthony Zor</a></h1>
-      <h4>Cinematographer, Editor, Creator</h4>
+      <h1 data-aos="fade-right" data-aos-easing="ease-in-out-quad" data-aos-duration="1000" data-aos-delay="150">
+        <a href="index.html">Anthony Zor</a></h1>
+      <h4 data-aos="fade-right" data-aos-easing="ease-in-out-quad" data-aos-duration="1000"> Cinematographer, Editor, Creator</h4>
     </div>
-
-    <nav>
-
       <div class="toggle new-color">
         <i class="fa fa-bars menu" aria-hidden="true"></i>
       </div>
 
+    <nav>
+
+
+      
       <ul>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="img/anthonyzor-resume.pdf">Resume</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li data-aos="fade-left" data-aos-easing="ease-in-out-quad" data-aos-duration="1000">
+          <a href="portfolio.html">Portfolio</a></li>
+        <li data-aos="fade-left" data-aos-easing="ease-in-out-quad" data-aos-duration="1000" data-aos-delay="150"><a href="img/anthonyzor-resume.pdf">Resume</a></li>
+        <li data-aos="fade-left" data-aos-easing="ease-in-out-quad" data-aos-duration="1000" data-aos-delay="250"><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
 
@@ -50,13 +53,13 @@
   </header>
 
   <div class="reel-content">
-    <h3>Demo Reel (2019)</h3>
-    <article>
+    <h3 data-aos="fade" data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="200">Demo Reel (2019)</h3>
+    <article data-aos="fade" data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="300">
       Here is a compilation of work I have done in the past year. I was the director of photography of every clip shown. If you want to check out more projects I have done, please go to my porfolio page.
     </article>
   </div>
 
-<div class="chimera">
+<div class="chimera" data-aos="fade" data-aos-easing="ease-in-out" data-aos-duration="1500" data-aos-delay="400" data-aos-offset="100">
   <iframe src="https://player.vimeo.com/video/379845991" width="640" height="480" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
 
@@ -69,6 +72,10 @@
 
 </div>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
       <script src="https://code.jquery.com/jquery-3.3.1.js"></script> 
     <script type="text/javascript">
       $(document).ready(function(){

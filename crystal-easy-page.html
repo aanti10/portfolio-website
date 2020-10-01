@@ -12,7 +12,7 @@
   <link rel="apple-touch-icon" href="icon.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,300i,400,400i,500,700,800&display=swap" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
@@ -22,48 +22,52 @@
 
 <body>
 
-    <header class="new-header">
+  <header class="new-header">
     <div class="left-header">
-      <h1><a href="index.html">Anthony Zor</a></h1>
-      <h4>Cinematographer, Editor, Creator</h4>
+      <h1 data-aos="fade-right" data-aos-easing="ease-in-out-quad" data-aos-duration="1000" data-aos-delay="150">
+        <a href="index.html">Anthony Zor</a></h1>
+      <h4 data-aos="fade-right" data-aos-easing="ease-in-out-quad" data-aos-duration="1000"> Cinematographer, Editor, Creator</h4>
     </div>
-
       <div class="toggle new-color">
         <i class="fa fa-bars menu" aria-hidden="true"></i>
       </div>
 
     <nav>
 
-            
+
+      
       <ul>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="img/anthonyzor-resume.pdf">Resume</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li data-aos="fade-left" data-aos-easing="ease-in-out-quad" data-aos-duration="1000">
+          <a href="portfolio.html">Portfolio</a></li>
+        <li data-aos="fade-left" data-aos-easing="ease-in-out-quad" data-aos-duration="1000" data-aos-delay="150"><a href="img/anthonyzor-resume.pdf">Resume</a></li>
+        <li data-aos="fade-left" data-aos-easing="ease-in-out-quad" data-aos-duration="1000" data-aos-delay="250"><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
+
+
 
   </header>
 
 <div class="chimera">
-  <span class="title"><h1>Crystal Easy</h1></span>
+  <span class="title"><h1 data-aos="fade" data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="200">Crystal Easy</h1></span>
 
-  <p>
+  <p data-aos="fade" data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="300">
     Inspired by classic film noir, Crystal Easy pays homage while satirizing and subverting many of the tired tropes of the genre for a modern audience. Set on a typical college campus, the film follows the exploits of a student who imagines himself as a Bogart-esque detective and soon finds himself in over his head in a case that brings him face to face with reality.<br>
     <br>
     For this film, I was the cinematographer, editor, colorist, sound designer, and ADR technician. 
   </p>
 
   <div class="stills">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/ACFWGcLDswY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ACFWGcLDswY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-aos="fade" data-aos-easing="ease-in-out" data-aos-duration="1500" data-aos-delay="400" data-aos-offset="100"></iframe>
   </div>
 
   <div class="stills">
-    <h2>Stills</h2>
+    <h2 data-aos="fade-down" data-aos-easing="ease-in-out" data-aos-duration="1500" data-aos-delay="200">Stills</h2>
 
-    <img src="img/crystal-easy-01.png" alt="Still 01">
-    <img src="img/crystal-easy-02.png" alt="Still 02">
-    <img src="img/crystal-easy-03.png" alt="Still 03">
-    <img src="img/crystal-easy-04.png" alt="Still 04">
+    <img src="img/crystal-easy-01.png" alt="Still 01" data-aos="fade-down-right" data-aos-easing="ease-in-out" data-aos-duration="1500" data-aos-delay="300">
+    <img src="img/crystal-easy-02.png" alt="Still 02" data-aos="fade-down-left" data-aos-easing="ease-in-out" data-aos-duration="1500" data-aos-delay="300">
+    <img src="img/crystal-easy-03.png" alt="Still 03" data-aos="fade-up-right" data-aos-easing="ease-in-out" data-aos-duration="1500" data-aos-delay="300">
+    <img src="img/crystal-easy-04.png" alt="Still 04" data-aos="fade-up-left" data-aos-easing="ease-in-out" data-aos-duration="1500" data-aos-delay="300">
   </div>
 
 
@@ -78,7 +82,10 @@
     <div class="social-media"><a href="https://vimeo.com/user79434811"><img src="img/vimeo.svg" alt="vimeo"></a></div>
   </footer>
 
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script> 
     <script type="text/javascript">
       $(document).ready(function(){

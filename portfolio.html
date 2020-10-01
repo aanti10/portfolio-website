@@ -12,7 +12,7 @@
   <link rel="apple-touch-icon" href="icon.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,300i,400,400i,500,700,800&display=swap" rel="stylesheet">
-
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
@@ -26,47 +26,50 @@
 
     <header class="new-header">
     <div class="left-header">
-      <h1><a href="index.html">Anthony Zor</a></h1>
-      <h4>Cinematographer, Editor, Creator</h4>
+      <h1 data-aos="fade-right" data-aos-easing="ease-in-out-quad" data-aos-duration="1000" data-aos-delay="150">
+        <a href="index.html">Anthony Zor</a></h1>
+      <h4 data-aos="fade-right" data-aos-easing="ease-in-out-quad" data-aos-duration="1000"> Cinematographer, Editor, Creator</h4>
     </div>
       <div class="toggle new-color">
         <i class="fa fa-bars menu" aria-hidden="true"></i>
       </div>
+
     <nav>
 
 
       
       <ul>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="img/anthonyzor-resume.pdf">Resume</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li data-aos="fade-left" data-aos-easing="ease-in-out-quad" data-aos-duration="1000">
+          <a href="portfolio.html">Portfolio</a></li>
+        <li data-aos="fade-left" data-aos-easing="ease-in-out-quad" data-aos-duration="1000" data-aos-delay="150"><a href="img/anthonyzor-resume.pdf">Resume</a></li>
+        <li data-aos="fade-left" data-aos-easing="ease-in-out-quad" data-aos-duration="1000" data-aos-delay="250"><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
 
   </header>
 
-   <div class="container">
+   <div class="container" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
     <a href="chimera.html"><img src="img/chimera.png" alt="Chimera" class="image"></a>
     <div class="middle">
       <div class="text">Chimera</div>
     </div>
    </div>
 
-   <div class="container">
+   <div class="container" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000" data-aos-delay="150">
     <a href="wishing-well.html"><img src="img/wishing-well.png" alt="Beyond The Wishing Well" class="image"></a>
     <div class="middle">
       <div class="text">Beyond The Wishing Well</div>
     </div>
    </div>
 
-   <div class="container">
+   <div class="container" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
     <a href="crystal-easy-page.html"><img src="img/crystal-easy.png" alt="Beyond The Wishing Well" class="image"></a>
     <div class="middle">
       <div class="text">Crystal Easy</div>
     </div>
    </div>
 
-   <div class="other">
+   <div class="other" data-aos="fade" data-aos-easing="ease-in-out-quad" data-aos-duration="1250">
      <a href="filmography.html">Other Filmography</a>
    </div>
 
@@ -77,6 +80,11 @@
   </footer>
 
 </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
       <script src="https://code.jquery.com/jquery-3.3.1.js"></script> 
     <script type="text/javascript">
       $(document).ready(function(){
