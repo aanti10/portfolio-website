@@ -505,7 +505,6 @@ main article{
 
 .chimera{
   margin: 0 auto;
-  text-align: center;
 }
 
 .chimera h1{
@@ -517,14 +516,29 @@ main article{
   font-size: 56px;
 }
 
+.poster{
+  width: 100%:
+  height: auto;
+  float: left;
+}
+
+.group{
+  width: 70vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .chimera p{
-  max-width: 1180px;
-  font-size: 24px;
-  display: inline-block;
+  width: 40vw;
+  font-size: 27px;
+  float: left;
+  padding: 25px;
 }
 
 .stills{
   margin-top: 5%;
+  text-align: center;
 }
 
 
@@ -534,7 +548,33 @@ main article{
   margin: 30px;
 }
 
+.chimera iframe{
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
 
+.lost{
+  text-align: center;
+}
+
+.lost h1{
+  width: 100%;
+  text-align: center;
+  background-color: #252a38;
+  color: #eff4f7;
+  padding: 10px 0px;
+  font-size: 56px;
+}
+
+.lost p{
+  font-size: 27px;
+  padding: 25px;
+  width: 70vw;
+  display: block;
+  margin: 0 auto;
+
+}
 
 
 @media screen and (max-width: 960px){
@@ -621,6 +661,7 @@ main article{
 .chimera p{
   font-size: 18px;
   width: 90vw;
+  width: auto;
 }
 
 .stills img{
