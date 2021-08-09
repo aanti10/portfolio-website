@@ -576,6 +576,13 @@ main article{
 
 }
 
+.souls{
+  width: 80vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 @media screen and (max-width: 960px){
 
@@ -674,9 +681,12 @@ main article{
   height: 30vh;
 }
 
+.souls{
+  width: 100vw;
+  margin: 0 auto;
 }
 
-
+}
 
 
 .browserupgrade {
